@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import './part5.css';
+// import './part5.css';
 
 
 

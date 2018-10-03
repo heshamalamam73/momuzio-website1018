@@ -3,7 +3,7 @@ import imga from '../../img/imga.jpeg'
 import imgb from '../../img/imgb.jpg'
 import imgc from '../../img/imgc.jpeg'
 import imgd from '../../img/imgd.jpeg'
-import './part4.css';
+// import './part4.css';
 
 
 

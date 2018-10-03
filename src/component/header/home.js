@@ -42,10 +42,8 @@ class Home extends Component{
         <Second />
         <Third />
         <Forty />
-        
-
-        <Comments  Comments={this.state.Comments} deleteComment = {this.deleteComment} />
-        <Addcomment AddComment={this.AddComment}/>
+        {/* <Comments  Comments={this.state.Comments} deleteComment = {this.deleteComment} /> */}
+        {/* <Addcomment AddComment={this.AddComment}/> */}
         <Fifty /> 
     
         </div>

@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
 import img4 from '../../img/img4.jpg'
-import './part3.css';
+// import './part3.css';
 
 class Third extends Component{
     render(){
