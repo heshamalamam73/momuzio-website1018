@@ -4,17 +4,28 @@ import {NavLink} from 'react-router-dom';
 
 const Header = ()=>{
         return(
-            
-                <header>
-                    <div className='logo'>
-                    <h2><a href='/'>momuzio</a></h2>
+               
+                <nav className="navbar navbar-expand-lg  navbar-light bg-light ">
+                    <NavLink className="navbar-brand" to="/">MOMUZIO</NavLink>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarText">
+                        <ul className="navbar-nav  mr-auto">
+                        <li className="nav-item ">
+                        <NavLink className="nav-link" exact to='/'>home</NavLink> 
+                        </li>
+                        <li className="nav-item">
+                        <NavLink className="nav-link" exact to='/about'>about</NavLink>
+                        </li>
+                        <li className="nav-item">
+                        <NavLink  className="nav-link" exact to='/portfolio'>portfolio</NavLink>
+                        </li>
+                        </ul>
+                       
                     </div>
-                    <ul className='item'>
-                    <li> <NavLink exact to='/'>home</NavLink></li>
-                    <li> <NavLink exact to='/about'>about</NavLink></li>
-                    <li> <NavLink exact to='/portfolio'>portfolio</NavLink></li>
-                    </ul>
-                </header>
+                </nav>
+              
         
         )
     }
