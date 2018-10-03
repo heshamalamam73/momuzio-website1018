@@ -260,11 +260,7 @@ main {
   background-color: #f1bc48;
   height: 100vh;
   position: relative;
-  font-family: 'Chicle', cursive;
-  transition: 4s;
-  transition-property: all;
-  transition-delay: 5s;
-  transition-timing-function: ease-out; }
+  font-family: 'Chicle', cursive; }
   .about:hover {
     background-color: black;
     padding: 20px 20px;
@@ -301,12 +297,35 @@ main {
         opacity: 1; }
 
 @media (max-width: 575px) {
+  .about {
+    background-color: #502f05;
+    margin: 20px auto;
+    height: 100vh;
+    display: inline;
+    margin: 400px auto;
+    text-align: center;
+    justify-content: center;
+    width: 100%; }
+    .about .left {
+      display: none; }
+      .about .left .contant {
+        width: 200px;
+        display: block;
+        color: #663d08; }
+    .about .right .myimg {
+      width: 100%;
+      height: 400px;
+      padding-top: 200px;
+      display: block;
+      margin: 20px auto;
+      padding-right: 40px; }
+      .about .right .myimg img {
+        width: 100%;
+        border-radius: 0; }
   header {
-    margin-top: -20px;
     display: block;
     height: 200px;
     position: absolute;
-    padding: 20px 0;
     grid-template-columns: 1;
     text-align: center; }
     header .logo {
@@ -314,10 +333,12 @@ main {
       float: none;
       text-align: center;
       font-size: 20px;
-      margin: 0 10px; }
+      margin: 0 10px;
+      line-height: 4px; }
     header ul {
       display: block;
-      float: none; }
+      float: none;
+      border: 2px solid balck; }
   main {
     margin: auto;
     width: 100%;
@@ -331,12 +352,18 @@ main {
       left: 50%;
       transform: translate(-50%, -20%); }
       main .container h1 {
-        font-size: 40px;
-        color: #3d270a; }
+        font-size: 20px;
+        color: #3d270a;
+        letter-spacing: 7px; }
+      main .container p {
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center; }
       main .container a {
         padding: 10px;
-        width: 50%;
-        font-size: 10px; }
+        width: 20%;
+        font-size: 10px;
+        letter-spacing: 2px; }
         main .container a:hover {
           background-color: #663d08;
           color: #eee; }
@@ -360,7 +387,7 @@ main {
     margin: 0 auto; }
     .container4 .boxs-parnt {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-auto-rows: minmax(300px, auto);
       grid-gap: 10px;
       margin: 10px 0;
