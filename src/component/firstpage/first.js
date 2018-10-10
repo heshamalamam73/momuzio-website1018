@@ -1,5 +1,4 @@
 import React ,{Component} from 'react';
-import './firstpage.css';
 import {NavLink} from 'react-router-dom';
 
 

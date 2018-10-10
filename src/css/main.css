@@ -27,7 +27,7 @@ header {
   cursor: pointer; }
   header .logo {
     float: left;
-    margin: -10px 50px;
+    margin: -10px 10px;
     width: 50%;
     text-align: left;
     letter-spacing: 10PX;
