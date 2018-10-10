@@ -1,7 +1,5 @@
 import React  from 'react';
-// import './header.css';
 import {NavLink} from 'react-router-dom';
-import {BrowserRouter as Router } from 'react-router-dom'
 
 const Header = ()=>{
         return(
@@ -13,19 +11,17 @@ const Header = ()=>{
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav  mr-auto">
                         <li className="nav-item ">
-                            {/* <NavLink className="nav-link" exact to='/'>home</NavLink>  */}
+                            <NavLink className="nav-link" exact to='/'>home</NavLink> 
                             </li>
                             <li className="nav-item">
-                            {/* <NavLink className="nav-link" exact to='/about'>about</NavLink> */}
+                            <NavLink className="nav-link" exact to="/about">about</NavLink>
                             </li>
                             <li className="nav-item">
-                            {/* <NavLink  className="nav-link" exact to='/portfolio'>portfolio</NavLink> */}
+                            <NavLink  className="nav-link" exact to='/portfolio'>portfolio</NavLink>
                             </li>
                             </ul>
                     </div>
                 </nav>
-
-        
         )
     }
 
