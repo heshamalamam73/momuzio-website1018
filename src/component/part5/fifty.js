@@ -11,9 +11,9 @@ class Fifty extends Component{
             <div className='contact'>
             <h1>Momuzio</h1>
             <h5>Web developer & designer </h5>
-            <h3>Mahmoud hassan hamed</h3>
+            
 
-            <div className="socialmedia">
+            <div className="socialmedia" id='contact'>
       	  				<a href="https://www.instagram.com/hesham_alamam/"><i className="fa fa-instagram"></i></a> 
       	  			  	<a href="https://www.facebook.com/mahmoudhassan993"><i className="fa fa-facebook"></i></a>
       	  				<a href="https://www.linkedin.com/in/mahmoud-hassan-okily-3ab3a7b6/"><i className="fa fa-linkedin -square"></i></a> 

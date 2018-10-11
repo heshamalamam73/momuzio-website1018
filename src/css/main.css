@@ -32,14 +32,14 @@ main {
       font-size: 20PX;
       font-weight: bolder;
       color: #db8515; }
-    main .container > div {
-      width: 400px;
-      font-size: 1em;
-      margin: 5px auto;
-      cursor: pointer;
-      font-family: 'Srisakdi', cursive; }
-      main .container > div Navlink {
-        color: #3d270a; }
+    main .container a {
+      color: #3d270a;
+      text-decoration: none;
+      background-color: #db8515;
+      padding: 15px 15px; }
+      main .container a:hover {
+        background-color: #3d270a;
+        color: aliceblue; }
 
 .container2 {
   background-color: #f1bc48;
