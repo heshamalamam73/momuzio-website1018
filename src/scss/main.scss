@@ -6,12 +6,35 @@
     100% {
         opacity: 1;
         margin: 0;
+        padding: -100px;
     }
 }
 .bg-dark{
+    .list-unstyled{
+        li{
+            a{
+                text-decoration: none;
+                &:hover{
+                    color: #663d08 !important;
+                }
+            }
+        }
+       
+    }
     background-color: #f1bc48!important;
     animation: 1s fadein 0.5s forwards;
-        margin-top: -100px;
+    padding: -50px;
+    .skills{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: #663d08;
+        }
+
+    }
+    .text-muted{
+        color: #eee !important;
+    }
     img{
         width: 200px;
         border-radius: 50%;
@@ -64,7 +87,7 @@ main{
  
     .container{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%,-20%);
         animation: 2s fadein 1s forwards;
@@ -99,7 +122,6 @@ main{
 }
 //second
 .container2{
-    
     background-color: #f1bc48;
     display: grid;
     grid-template-columns: repeat(3,1fr);

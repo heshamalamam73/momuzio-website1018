@@ -9,13 +9,14 @@ const Header = ()=>{
                   <div className="container">
                     <div className="row">
                       <div className="col-sm-8 col-md-7 py-4">
-                        {/* <h4 className="text-white">About</h4> */}
+                       
                         <img alt='momuzio' src={headimg}></img>
                         <h1>Mahmoud hassan hamed okily </h1>
                         <h4> Full stack web developer</h4>
                         <p className="text-muted">
                         Welcome to my page, you can contact me at any time  ... have a nice time !!                    
                         </p>
+                        <a className='skills' href='#skills'>MY SKILLS</a>
                       </div>
                       <div className="col-sm-4 offset-md-1 py-4">
                         <h4 className="text-white">Contact</h4>

@@ -5,12 +5,24 @@
 @keyframes fadein {
   100% {
     opacity: 1;
-    margin: 0; } }
+    margin: 0;
+    padding: -100px; } }
 
 .bg-dark {
   background-color: #f1bc48 !important;
   animation: 1s fadein 0.5s forwards;
-  margin-top: -100px; }
+  padding: -50px; }
+  .bg-dark .list-unstyled li a {
+    text-decoration: none; }
+    .bg-dark .list-unstyled li a:hover {
+      color: #663d08 !important; }
+  .bg-dark .skills {
+    color: white;
+    text-decoration: none; }
+    .bg-dark .skills:hover {
+      color: #663d08; }
+  .bg-dark .text-muted {
+    color: #eee !important; }
   .bg-dark img {
     width: 200px;
     border-radius: 50%;
@@ -44,7 +56,7 @@ main {
   text-transform: uppercase; }
   main .container {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -20%);
     animation: 2s fadein 1s forwards;

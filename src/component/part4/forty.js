@@ -10,11 +10,11 @@ import imgd from '../../img/imgd.jpeg'
 class Forty extends Component{
     render(){
         return(
-            <section className='container4'>
+            <section id='skills'  className='container4'>
             <div className='content'>
             <h4>Experience and knowledge</h4>
             </div>
-             <div className='boxs-parnt'>
+             <div  className='boxs-parnt'>
              <div className='box box1'>
              <img alt='web developer' src={imga}></img>
              <h3>LANGUAGES</h3>
