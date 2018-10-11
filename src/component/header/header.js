@@ -1,5 +1,4 @@
 import React  from 'react';
-import myimg from '../../img/myimg1.png';
 import myphoto from '../../img/img11.png';
 
 
@@ -10,14 +9,15 @@ const Header = ()=>{
                   <div className="container">
                     <div className="row">
                       <div className="col-sm-8 col-md-7 py-4">
-                      
-                       
                         <img alt='momuzio' src={myphoto}></img>
+                        <hr></hr>
                         <h1>Mahmoud hassan hamed okily </h1>
                         <h4> Full stack web developer</h4>
-                        <p className="text-muted">
-                        Welcome to my page, you can contact me at any time  ... have a nice time !!                    
-                        </p>
+                        <h6>Faculty of commerce</h6>
+                        <h6>Egyption</h6>
+                        <h6>Italy-como</h6>
+                        <h6>heshamalamam73@gmail.com</h6>
+                       
                         <a className='skills' href='#skills'>MY SKILLS</a>
                       </div>
                       <div className="col-sm-4 offset-md-1 py-4">

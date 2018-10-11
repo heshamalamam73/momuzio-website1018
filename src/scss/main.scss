@@ -10,6 +10,11 @@
     }
 }
 .bg-dark{
+    font-family: 'Chicle', cursive;
+
+    h1{
+        color: #663d08 !important;
+    }
     .list-unstyled{
         li{
             a{
@@ -46,13 +51,17 @@
         margin-top: -100px;
 
         &:hover{
-            width: 750px;
+            width: 600px;
             border-radius: 30px;
         }
+    }
+    h6{
+        color: white;
     }
     strong{
         font-family: 'Monoton', cursive;
         letter-spacing: 10px;
+        
         &:hover{
             color: #3d270a;
 
@@ -402,24 +411,40 @@ main{
 }
 @include Xs{
     .bg-dark{
+        .skills{
+            margin-top: -30px;
+            font-size: 20px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        max-width: 100%;
+        .list-unstyled{
+            margin: 0;
+            padding-top: -20px;
+            text-align: left;
+        }
+        h6{
+            color: white;
+            font-size: 14px;
+        }
         img{
+            opacity: .5;
+            padding-top: -40px;
             justify-content: center;
             align-items: center;
             text-align: center;
-            width: 700px;
+            width: 100%;
             background-position: center;
             background-origin: content-box;
             background-attachment: fixed;
             backdrop-filter: yellow;
             background-size: cover;
-            padding-right: 350px;
-            padding-bottom: 60px;
             border-radius: 0;
             &:hover{
-                width: 700px;
-                border-radius: 0;
-                padding-right: 350px;
-                padding-bottom: 60px;
+               width: 100%;
+               opacity: .1;
+
+              
             }
         }
         .container{
