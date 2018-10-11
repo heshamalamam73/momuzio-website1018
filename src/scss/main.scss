@@ -5,6 +5,18 @@
 
 .bg-dark{
     background-color: #f1bc48!important;
+    img{
+        width: 200px;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+        transition: 3s all ;
+
+        &:hover{
+            width: 500px;
+            border-radius: 30px;
+        }
+    }
     strong{
         font-family: 'Monoton', cursive;
         letter-spacing: 10px;
@@ -33,12 +45,12 @@ main{
     background-attachment: fixed;
     background-size: cover;
     letter-spacing: 10PX;
-
     width: 100%;
     height: 100vh;
     position: relative;
     text-align: center;
     text-transform: uppercase;
+ 
     .container{
         position: absolute;
         top: 50%;
@@ -353,6 +365,18 @@ main{
 }
 @include Xs{
     .bg-dark{
+        img{
+            width: 100%;
+            background-position: center;
+            background-origin: content-box;
+            background-attachment: fixed;
+            backdrop-filter: yellow;
+            background-size: cover;
+            &:hover{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
         .container{
             .row{
                 .py-4{

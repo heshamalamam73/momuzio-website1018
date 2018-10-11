@@ -4,6 +4,15 @@
 @import url("https://fonts.googleapis.com/css?family=Spirax");
 .bg-dark {
   background-color: #f1bc48 !important; }
+  .bg-dark img {
+    width: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    transition: 3s all; }
+    .bg-dark img:hover {
+      width: 500px;
+      border-radius: 30px; }
   .bg-dark strong {
     font-family: 'Monoton', cursive;
     letter-spacing: 10px; }
@@ -230,6 +239,16 @@ main {
     width: 90%; }
 
 @media (max-width: 547px) {
+  .bg-dark img {
+    width: 100%;
+    background-position: center;
+    background-origin: content-box;
+    background-attachment: fixed;
+    backdrop-filter: yellow;
+    background-size: cover; }
+    .bg-dark img:hover {
+      width: 100%;
+      border-radius: 50%; }
   .bg-dark .container .row .py-4 h1 {
     font-size: 20px; }
   .bg-dark .container .row .py-4 h4 {
