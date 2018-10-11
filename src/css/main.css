@@ -14,7 +14,10 @@
   animation: 1s fadein 0.5s forwards;
   padding: -50px; }
   .bg-dark h1 {
-    color: #663d08 !important; }
+    color: #663d08 !important;
+    animation: 2s fadein 0.5s forwards;
+    opacity: 0;
+    margin-top: -100px; }
   .bg-dark .list-unstyled li a {
     text-decoration: none; }
     .bg-dark .list-unstyled li a:hover {
@@ -27,19 +30,22 @@
   .bg-dark .text-muted {
     color: #eee !important; }
   .bg-dark img {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
     transition: 3s all;
-    animation: 2s fadein 0.5s forwards;
+    animation: 2s fadein 1s forwards;
     opacity: 0;
     margin-top: -100px; }
     .bg-dark img:hover {
-      width: 600px;
+      width: 650px;
       border-radius: 30px; }
   .bg-dark h6 {
-    color: white; }
+    color: white;
+    animation: 2s fadein .5s forwards;
+    opacity: 0;
+    margin-top: -100px; }
   .bg-dark strong {
     font-family: 'Monoton', cursive;
     letter-spacing: 10px; }
@@ -271,6 +277,12 @@ main {
 @media (max-width: 547px) {
   .bg-dark {
     max-width: 100%; }
+    .bg-dark .offset-md-1, .bg-dark h4, .bg-dark h6, .bg-dark h1, .bg-dark hr {
+      animation: 1s fadein .5s forwards;
+      opacity: 0;
+      margin-top: -100px; }
+    .bg-dark hr {
+      padding-top: 70px; }
     .bg-dark .skills {
       margin-top: -30px;
       font-size: 20px;
@@ -284,8 +296,11 @@ main {
       color: white;
       font-size: 14px; }
     .bg-dark img {
+      animation: s fadein .5s forwards;
+      opacity: 0;
+      transition: none;
+      margin-top: -400px;
       opacity: .5;
-      padding-top: -40px;
       justify-content: center;
       align-items: center;
       text-align: center;
@@ -297,8 +312,7 @@ main {
       background-size: cover;
       border-radius: 0; }
       .bg-dark img:hover {
-        width: 100%;
-        opacity: .1; }
+        width: 100%; }
     .bg-dark .container .row .py-4 h1 {
       font-size: 20px; }
     .bg-dark .container .row .py-4 h4 {
