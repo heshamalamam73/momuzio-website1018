@@ -2,55 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
 @import url("https://fonts.googleapis.com/css?family=Spirax");
-.navbar-light .navbar-nav {
-  padding: 0 700px; }
-  .navbar-light .navbar-nav .nav-link {
-    color: white; }
-
-.bg-light {
-  background-color: #db8515 !important; }
-  .bg-light .navbar-brand {
-    color: #eee !important;
-    font-family: 'Permanent Marker', cursive; }
-  .bg-light ul li {
-    color: #eee !important; }
-
-header {
-  display: flex;
-  height: 60px;
-  background-color: #f1bc48;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  text-transform: uppercase;
-  font-family: 'Permanent Marker', cursive;
-  cursor: pointer; }
-  header .logo {
-    float: left;
-    margin: -10px 10px;
-    width: 50%;
-    text-align: left;
-    letter-spacing: 10PX;
-    font-weight: bolder; }
-    header .logo a {
-      color: #3d270a;
-      text-decoration: none; }
-      header .logo a:hover {
-        color: #eee; }
-  header ul {
-    display: flex;
-    list-style: none;
-    width: 50;
-    float: left;
-    align-items: center; }
-    header ul li {
-      padding: 5px 20px;
-      margin: 5px 0; }
-      header ul li a {
-        text-decoration: none;
-        color: #3d270a; }
-        header ul li a:hover {
-          color: #db8515; }
+.bg-dark {
+  background-color: #f1bc48 !important; }
+  .bg-dark .container .row .py-4 h1, .bg-dark .container .row .py-4 h4, .bg-dark .container .row .py-4 p {
+    color: #eee; }
 
 main {
   background-image: url("https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -214,8 +169,7 @@ main {
     margin: 20px 20px;
     opacity: .5; }
     .comment-style span:hover {
-      opacity: 1;
-      color: #db8515; }
+      opacity: 1; }
 
 .comments-views {
   display: grid;
@@ -269,6 +223,12 @@ main {
     width: 90%; }
 
 @media (max-width: 547px) {
+  .bg-dark .container .row .py-4 h1 {
+    font-size: 20px; }
+  .bg-dark .container .row .py-4 h4 {
+    font-size: 15px; }
+  .bg-dark .container .row .py-4 p {
+    font-size: 10px; }
   main {
     margin: auto;
     width: 100%;
