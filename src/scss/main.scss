@@ -46,7 +46,7 @@
         margin-top: -100px;
 
         &:hover{
-            width: 500px;
+            width: 750px;
             border-radius: 30px;
         }
     }
@@ -403,15 +403,23 @@ main{
 @include Xs{
     .bg-dark{
         img{
-            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 700px;
             background-position: center;
             background-origin: content-box;
             background-attachment: fixed;
             backdrop-filter: yellow;
             background-size: cover;
+            padding-right: 350px;
+            padding-bottom: 60px;
+            border-radius: 0;
             &:hover{
-                width: 100%;
-                border-radius: 50%;
+                width: 700px;
+                border-radius: 0;
+                padding-right: 350px;
+                padding-bottom: 60px;
             }
         }
         .container{

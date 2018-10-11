@@ -1,5 +1,6 @@
 import React  from 'react';
-import headimg from '../../img/headimg.jpg';
+import myimg from '../../img/myimg1.png';
+import myphoto from '../../img/img11.png';
 
 
 const Header = ()=>{
@@ -9,8 +10,9 @@ const Header = ()=>{
                   <div className="container">
                     <div className="row">
                       <div className="col-sm-8 col-md-7 py-4">
+                      
                        
-                        <img alt='momuzio' src={headimg}></img>
+                        <img alt='momuzio' src={myphoto}></img>
                         <h1>Mahmoud hassan hamed okily </h1>
                         <h4> Full stack web developer</h4>
                         <p className="text-muted">
