@@ -5,6 +5,15 @@
 
 .bg-dark{
     background-color: #f1bc48!important;
+    strong{
+        font-family: 'Monoton', cursive;
+        letter-spacing: 10px;
+        &:hover{
+            color: #3d270a;
+
+        }
+
+    }
     .container{
         .row{
             .py-4{
@@ -37,7 +46,7 @@ main{
         transform: translate(-50%,-20%);
         h1{
             font-size:40px;
-            color: #3d270a;
+            color: black;
             font-family: 'Monoton', cursive;
 
 
@@ -46,7 +55,6 @@ main{
             font-family: 'Srisakdi', cursive;
             font-size: 20PX;
             font-weight: bolder;
-            color: #db8515;
         }
         a{
             color: #3d270a;
@@ -118,7 +126,6 @@ main{
 }
 //forty
 .container4{
-    background-color: #eee;
     width: 99%;
     margin: 0 auto;
     .boxs-parnt{
@@ -132,8 +139,11 @@ main{
            background-color: #f1bc48;
            text-align: center;
            margin: 0 10px;
+
            h3{
             font-family: 'Chicle', cursive;
+            padding: 20px 0;
+            font-size: 23px;
            }
            img{
             width: 100%;
@@ -172,16 +182,16 @@ main{
 .container5{
     .contact{
         height: 240px;
-        background-color: #f1bc48;
+        background-color: white;
         margin: 0;
         text-align: center;
         padding: 20px;
-        color: white;
+        color: #db8515;
        
         i{
             padding: 20px;
             font-size: 30px;
-            color: white;
+            color: #502f05;
             &:hover{
                 opacity: 1;
                 color: #db8515;
@@ -191,13 +201,16 @@ main{
 
     }
    .footer{display: grid;
-    background-color: #eee;
+    background-color: #f1bc48;
     grid-auto-rows: minmax(60px,auto);
     text-align: center;
     margin: auto;
     text-transform: uppercase;
     font-family: 'Permanent Marker', cursive;
-    color: #db8515;
+    color: white;
+    p{
+        padding: 15px 0;
+    }
     &:hover{
         opacity: 1;
         color: #502f05;
@@ -319,7 +332,6 @@ main{
 .about{
   
     .col-sm-4{
-
         .image{
          
             margin: 20px auto;

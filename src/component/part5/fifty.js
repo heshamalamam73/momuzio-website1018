@@ -7,13 +7,14 @@ import React ,{Component} from 'react';
 class Fifty extends Component{
     render(){
         return(
-            <section className='container5'>
+
+            <section className=' container5'>
             <div className='contact'>
             <h1>Momuzio</h1>
             <h5>Web developer & designer </h5>
             
 
-            <div className="socialmedia" id='contact'>
+            <div className="container socialmedia" id='contact'>
       	  				<a href="https://www.instagram.com/hesham_alamam/"><i className="fa fa-instagram"></i></a> 
       	  			  	<a href="https://www.facebook.com/mahmoudhassan993"><i className="fa fa-facebook"></i></a>
       	  				<a href="https://www.linkedin.com/in/mahmoud-hassan-okily-3ab3a7b6/"><i className="fa fa-linkedin -square"></i></a> 
