@@ -12,6 +12,7 @@ const About = () =>{
             </div>
             <div className='col-sm-8 col-md-12 col-lg-6 '>
               <div className="contant">
+              this is the page abaout
               
               </div >
               </div>

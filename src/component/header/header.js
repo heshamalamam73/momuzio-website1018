@@ -1,6 +1,6 @@
 import React  from 'react';
 import myphoto from '../../img/img11.png';
-
+import About from '../header/about';
 
 const Header = ()=>{
         return(
@@ -17,8 +17,8 @@ const Header = ()=>{
                         <h6>Egyption</h6>
                         <h6>Italy-como</h6>
                         <h6>heshamalamam73@gmail.com</h6>
-                       
                         <a className='skills' href='#skills'>MY SKILLS</a>
+                        <a className='skills' href='/about'>About</a>
                       </div>
                       <div className="col-sm-4 offset-md-1 py-4">
                         <h4 className="text-white">Contact</h4>
