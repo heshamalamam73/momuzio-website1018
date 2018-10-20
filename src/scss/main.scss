@@ -575,3 +575,23 @@ main{
     }
     
 }
+
+//portpfolia 
+
+.portofolia{
+    background-color: #db8515;
+    padding: 50px 50px ;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows:minmax(400px,auto);
+    grid-gap: 40px;
+   .website{
+       iframe{
+           width: 100%;
+           height: 500px;
+       }
+   }
+
+}
+
